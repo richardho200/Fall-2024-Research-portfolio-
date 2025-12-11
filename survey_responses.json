@@ -1,0 +1,110 @@
+[
+  {
+    "responses": [
+      {
+        "question": "How does stack work?",
+        "studentAnswer": "FILO",
+        "chatGPTResponse": "Correct Answer: A stack works on the principle of \"last-in, first-out\" (LIFO). It is a type of data structure where data is added (pushed) and removed (popped) from the top of the stack only. \n\nBased on the student's answer, it appears they understand the core concept of a stack operation as their answer \"FILO\" (implied as First-In-Last-Out) is not wrong but not the standard terminology for this concept. However, they haven't provided any examples as asked in the question. \n\nSuggestions for improvement:\nNext time give a more comprehensive answer, mentioning that a stack operates on a 'last-in, first-out' basis, is a type of data structure and is used in computing. You could also provide examples to further illustrate this concept. For example, you could show how a stack of plates works, with the last plate put on the stack being the first one taken off, or use a command list in computer programming as an example, where the last command entered will be the first one executed.",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "When can I use assignment operator in C++?",
+        "studentAnswer": "Comparsion",
+        "chatGPTResponse": "Correct Answer: The assignment operator in C++ is used to assign values to variables. It can be used after a variable has been declared to give it a value, or it can be used to change the value of a variable that has already been assigned. \n\nSuggestions: Your answer is incorrect. It seems like you might be confusing the assignment operator with comparison operators. In C++, the assignment operator is an equal sign (=), and it's used to assign a value to a variable. For example, \"int a = 10;\" is using the assignment operator to give the variable 'a' a value of 10. Try to remember the assignment operator for its basic function: assigning values to variables.",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "Declare an array called animals with 20 slots in C++.",
+        "studentAnswer": "int animals[20];",
+        "chatGPTResponse": "The student's answer is correct in declaring an array with 20 slots, but they have incorrectly named it as 'int' which is a data type for integers. Since the array is supposed to contain animals, it is more logical to use the data type string or char. \n\nA correct alternative would be:\n\nstring animals[20]; OR char animals[20][50]; //for 20 strings of maximum length 50.",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "Declare a char matrix M with 2 rows and 3 columns in C++.",
+        "studentAnswer": "string M[2][3];",
+        "chatGPTResponse": "The student's answer is incorrect. The student declared a matrix of strings not chars. \n\nHere is the correct way to declare a char matrix M with 2 rows and 3 columns in C++:\n\n`char M[2][3];`\n\nThe code `string M[2][3];` creates a 2D array where each element is a string, not a char. Remember, a char in C++ is a single character, whereas a string is a sequence of characters. Therefore, to improve your code, replace \"string\" with \"char\". \n\nSo the student should revise their code to reflect the correct data type which is `char`, to properly declare the 2D char matrix.",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "Declare a char vector with int as the initial size in C++.",
+        "studentAnswer": "char <vector>;",
+        "chatGPTResponse": "The student's answer is incorrect. The correct syntax to declare a char vector of a specified size is:\n\nvector<char> v(int size);\n\nHere are some suggestions on how to improve the answer: \n1. You must first specify \"vector\" before \"<char>\" because \"vector\" is the container known to the STL where objects are stored.\n2. After \"<char>\" you should have \"v(int size);\" where \"v\" is the name of the vector and \"(int size)\" is the initial size of the vector.\n3. It's also important to include the appropriate headers. In this case, you'll need to include \"#include <vector>\" at the beginning.\n4. Remember, vector names cannot have whitespaces.\n   \nSo, the correct answer will be:\n\n# include <vector>\nusing namespace std;\nint main(){\nvector<char> v(10);\nreturn 0;\n}\nHere, vector \"v\" of char type is declared with an initial size of 10.",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "How do you increment P making it wrap around in an array of size MAX?",
+        "studentAnswer": "P++;",
+        "chatGPTResponse": "The student's answer only increments the variable P, but doesn't take into consideration the need to wrap around in an array. A more complete answer would look like this: \n\n```\nP = (P+1) % MAX;\n```\n\nThis will increment P and then use modulo to ensure it wraps around to the start of the array when it hits the maximum. In this context, the \"%\" operator is used to find the remainder of the division of (P+1) by MAX. If P+1 is less than MAX, the value just increments. But if P+1 equals MAX, it wraps around back to 0.\n\nThe student could improve their answer by considering the wrapping requirement. The important part is to remember the use of the modulus operator for the wrap around functionality.",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "When a queue has element in it, is front always greater than rear?",
+        "studentAnswer": "yes",
+        "chatGPTResponse": "The student's answer is incorrect because whether the front is greater than the rear in a queue depends on the specific implementation of the queue and the inserted elements. The queue operates on the principle of FIFO (First in First out), which implies that the elements are removed in the same order they were inserted. Thus, front and rear don't inherently have a numerical relationship but instead, a positional one in terms of sequence of entrance. \n\nSuggestion: The student might need a better understanding of the concept of a queue in data structure. They should study the property of queue i.e., the FIFO principle and it's different implementations.",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "What is the top of the stack when stack is full?",
+        "studentAnswer": "top=NULL;",
+        "chatGPTResponse": "The student's answer is not correct. When a stack is full, the top of the stack is actually the last element that has been added to the stack, not 'NULL'. It seems like the student might be confusing this concept with a stack being empty, in which case the top would be 'NULL' (assuming we're talking about a stack implemented with a linked list). \n\nTo improve the answer, the student could say \"When a stack is full, the top of the stack is the last element that was added to the stack.\" If they wanted to provide a more nuanced answer, they could talk about how the exact implementation of a stack can change what the \"top\" of a stack exactly refers to (e.g., in an array-based implementation, the \"top\" of the stack would be the array index where the last item was inserted).",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "What is the main difference between linked list and vector?",
+        "studentAnswer": "Vector is dynamically spaced than linked list. ",
+        "chatGPTResponse": "Correct Answer: The main difference between a linked list and a vector is how they handle memory allocation and element access. A vector uses a consecutive memory location for storing elements which allows direct access to any element and effective for accessing through index. A linked list uses separate blocks of memory for each element that are linked together by pointers, which is effective for inserting or deleting elements but slow for random access.\n\nStudent Answer Evaluation: The student's answer is inaccurate. It is not correct to say that a vector is dynamically spaced than a linked list. Both can dynamically grow but the way they handle memory allocation and element access is different.\n\nSuggestions to improve the answer: The student should explain both the difference in memory allocation and element access in the linked list and vector. For example, stating that vectors use a contiguous block of memory where they store their elements and allow direct access to any element while a linked list stores elements separately with blocks of memory linked together by pointers and is efficient for adding or deleting elements but slow for random access.",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "What data structure uses static allocation in C++?",
+        "studentAnswer": "array",
+        "chatGPTResponse": "The student's answer is correct. An array is indeed a data structure in C++ that uses static allocation. I would suggest to improve the answer by adding a brief explanation about what an array is and how it uses static allocation. \n\nFor Example: \"An array in C++ is a type of data structure that uses static allocation. It is a collection of elements stored at contiguous memory locations. The size of an array is fixed and allocated in memory before runtime, meaning the memory block size cannot be increased or decreased during the execution of the program.\"",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "Define edges in a tree.",
+        "studentAnswer": "edges are the adjacent between the nodes.  ",
+        "chatGPTResponse": "The student's answer is partially correct but lacks some clarity and specific details. An improved answer could be: \"Edges in a tree are the lines connecting nodes. In a tree, if two nodes are directly connected with each other, we say there is an edge between them. Each edge represents a relationship between nodes.\" \n\nFor example, in the case of a family tree, nodes could be persons and edges might represent parent-child relationships.",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "Give an example of a perfect tree with 15 nodes.",
+        "studentAnswer": "na",
+        "chatGPTResponse": "The student's answer does not provide any information pertaining to the question asked. \n\nSuggestions for improvement: \n\nThe student could offer an example of a perfect binary tree with 4 levels. The first level would have 1 node (root node), the second level would have 2 nodes, the third level would have 4 nodes and the final fourth level would have 8 nodes. The total number of nodes in this tree would be 1+2+4+8 = 15, which qualifies it as a perfect binary tree with 15 nodes.\n\nThe student could also think of an alternative tree structure. For instance, a perfect ternary (3-ary) tree with 3 levels: the root at the first level, three nodes at the second level, and nine nodes at the third level, also gives a total of 15 nodes. However, the binary tree example is simpler and more common.\n\nIt's important to actually draw out or describe the tree to ensure it meets the criteria of a \"perfect\" tree where all the non-leaf nodes have the same number of child nodes and all the leaf nodes are at the same level. \n\nIt might also help to explain that the root node is at level 0, the next level is level 1, and so on, as this terminology is conventional in discussing trees. \n\nRemember, in computer science, understanding these concepts goes hand-in-hand with being able to provide textual or visual examples.",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "How many nodes are there in the tree when you have 5 levels?",
+        "studentAnswer": "2^5=32",
+        "chatGPTResponse": "The student's answer is partially correct but lacks a complete understanding of the concept. In a binary tree, each level i has 2^i nodes. So, on 5 levels, we have 1 + 2 + 4 + 8 + 16 = 31 nodes including the root. The student calculated the number of nodes in a complete binary tree of height 5 excluding the root, which is 32. To improve the answer, the student should be aware that the number of nodes in a binary tree with 5 levels (including root as level 1) is 31. If the root is on level 0, then there would indeed be 32 nodes. The confusion arose from whether the root level is considered 0 or 1.",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "Describe the differences between friend and protected in a class header.",
+        "studentAnswer": "friend is inherited between classes. Protected is restricted between certain members inheritance ",
+        "chatGPTResponse": "Correct Answer: In the context of a class in C++, 'friend' and 'protected' are access specifiers. 'friend' allows a function or another class to access the private and protected members of the class in which it is declared. 'protected', on the other hand, is an access specifier that allows the members of the class and the classes derived from it to access the protected members. It doesn’t allow access by the code outside.\n\nImprovement in student's answer: The student has almost got the right idea, but the explanation is somewhat vague and confusing. They could improve the answer by more accurately summarizing the meanings and functions of 'friend' and 'protected'. It would be good to mention that 'friend' grants access to another class or function, whereas 'protected' limits access to the class and its derived classes.",
+        "rating": "5 - Excellent"
+      },
+      {
+        "question": "Can private things get inherited?",
+        "studentAnswer": "no",
+        "chatGPTResponse": "Correct Answer: Yes\n\nStudent's answer suggests a misunderstanding of the question. The question might be referring to private properties in object-oriented programming, inheritance of personal property in terms of law, or privacy inheriting in online settings. Without a specific context, it's difficult to give a more precise answer. However, in general, private things can get inherited in all these scenarios. \n\nSuggestions for Improvement: The student should elaborate on their answer by applying it to a specific context. If the question is about programming, they could mention how private properties in a class cannot be directly inherited or accessed by a subclass. If it's about inheritance in terms of law, they could mention how private properties of a deceased person can be passed on to their heirs. In the context of privacy settings online, perhaps they could talk about how privacy settings can be inherited from a parent object or folder. This would provide a comprehensive view and better understanding of the concept.",
+        "rating": "5 - Excellent"
+      },
+      {
+        "response_id": 1731462101568,
+        "survey_answers": {
+          "confidence_in_advice": "5 - Extremely Confident",
+          "unrelated_answers": "1 - Never",
+          "confidence_in_understanding": "5 - Extremely Confident",
+          "confidence_in_assistance": "5 - Extremely Confident",
+          "comfort_in_using": "5 - Very Comfortable",
+          "reason_for_using_ai": {
+            "selected_option": "Supplemental tool to aid in my learning",
+            "explanation": "na"
+          }
+        }
+      }
+    ]
+  }
+]
