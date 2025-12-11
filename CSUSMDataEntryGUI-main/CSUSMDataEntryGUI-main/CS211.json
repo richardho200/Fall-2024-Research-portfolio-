@@ -1,0 +1,78 @@
+{
+    "course": "CS 211: Intermediate Computer Science (Programming Concepts)",
+    "questions": [
+      {
+        "id": 1,
+        "question": "How does {} work?",
+        "examples": ["stack", "queue", "for loop", "while loops"]
+      },
+      {
+        "id": 2,
+        "question": "When can I use {} operator in C++?",
+        "examples": ["assignment", "comparison", "arithmetic"]
+      },
+      {
+        "id": 3,
+        "question": "Declare an array called prices with {} slots in C++."
+      },
+      {
+        "id": 4,
+        "question": "Declare a {} matrix M with {} rows and {} columns in C++.",
+        "examples": ["char 3 4"]
+      },
+      {
+        "id": 5,
+        "question": "Declare a {} vector with {} as the initial size in C++.",
+        "examples": ["integer", "char"]
+      },
+      {
+        "id": 6,
+        "question": "How do you increment {} making it wrap around in an array of size {}?",
+        "examples": ["P MAX"]
+      },
+      {
+        "id": 7,
+        "question": "When a queue has element in it, is front always {} than rear?",
+        "examples": ["less than"]
+      },
+      {
+        "id": 8,
+        "question": "What is the top of the stack when stack is {}?",
+        "examples": ["empty", "full"]
+      },
+      {
+        "id": 9,
+        "question": "What is the main difference between {} and {}?",
+        "examples": ["Stack", "queue"]
+      },
+      {
+        "id": 10,
+        "question": "What data structure uses {} allocation in C++?",
+        "examples": ["static", "dynamic"]
+      },
+      {
+        "id": 11,
+        "question": "Define {} in a tree.",
+        "examples": ["vertices", "edges", "leaves", "root", "internal nodes", "path length"]
+      },
+      {
+        "id": 12,
+        "question": "Give an example of a perfect tree with {} nodes."
+      },
+      {
+        "id": 13,
+        "question": "How many nodes are there in the tree when you have {} levels?"
+      },
+      {
+        "id": 14,
+        "question": "Describe the differences between {} and {} in a class header.",
+        "examples": ["public", "private"]
+      },
+      {
+        "id": 15,
+        "question": "Can {} things get inherited?",
+        "examples": ["private", "protected"]
+      }
+    ]
+  }
+  
