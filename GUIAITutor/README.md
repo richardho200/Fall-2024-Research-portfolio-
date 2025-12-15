@@ -60,11 +60,13 @@ This application is designed for entering and managing student data for CSUSM co
 5. **Navigation and Display**: Implemented navigation between questions with consistent example selection.
 
 ###  IMPORTANT: ADDITIONAL Directions for running the program
+### 1)Setup
+Use an environment variable (recommended)
+1. Set your API key (Windows – Anaconda / CMD)
+setx OPENAI_API_KEY "your-real-api-key-here"
 
-1)create .env folder and create the API key before you use
+2)create .env file and create the API key before you use
 
-create txt file
-in the txt file you must have
 OPENAI_API_KEY="your-api-key"
 PORT=5000
 
