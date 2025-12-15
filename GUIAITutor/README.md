@@ -59,3 +59,21 @@ This application is designed for entering and managing student data for CSUSM co
 4. **Validation Enhancements**: Added validation for course selection and student ID entry.
 5. **Navigation and Display**: Implemented navigation between questions with consistent example selection.
 
+#IMPORTANT: ADDITIONAL Directions for running the program
+
+1)create .env folder and create the API key before you use
+
+create txt file
+in the txt file you must have
+OPENAI_API_KEY="your-api-key"
+PORT=5000
+
+2) Running Node command PRIOR to running the main.py
+Server.js is the backend for the API communication to the front end GUI app.
+Run these commands for first time ONLY
+npm install express cors axios dotenv
+node server.js
+
+before running the main.py
+
+After installing the express cors axios dotenv, then you must run node server.js prior running the main.py
