@@ -59,7 +59,7 @@ This application is designed for entering and managing student data for CSUSM co
 4. **Validation Enhancements**: Added validation for course selection and student ID entry.
 5. **Navigation and Display**: Implemented navigation between questions with consistent example selection.
 
-###IMPORTANT: ADDITIONAL Directions for running the program
+###  IMPORTANT: ADDITIONAL Directions for running the program
 
 1)create .env folder and create the API key before you use
 
