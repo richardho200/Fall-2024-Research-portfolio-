@@ -1,0 +1,81 @@
+{
+    "course": "CS 311: Data Structures and Algorithms (Analysis Concepts)",
+    "questions": [
+      {
+        "id": 1,
+        "question": "How do classes and objects achieve {}?",
+        "examples": ["information hiding", "reuse", "maintainability"]
+      },
+      {
+        "id": 2,
+        "question": "What kind of a search algorithm does a {} tree model?",
+        "examples": ["skewed", "balanced"]
+      },
+      {
+        "id": 3,
+        "question": "When does the worst case happen in {} Sort?",
+        "examples": ["quick sort", "bubble sort"]
+      },
+      {
+        "id": 4,
+        "question": "When does a best case happen in {} Sort?",
+        "examples": ["quick sort", "bubble sort"]
+      },
+      {
+        "id": 5,
+        "question": "What is the advantage of {} over {}?",
+        "examples": ["static/dynamic allocation/typing"]
+      },
+      {
+        "id": 6,
+        "question": "What is a disadvantage of {} over {}?",
+        "examples": ["static/dynamic allocation/typing"]
+      },
+      {
+        "id": 7,
+        "question": "What is a {} in dynamic memory?",
+        "examples": ["dangling pointer", "segmentation fault", "garbage"]
+      },
+      {
+        "id": 8,
+        "question": "Does using a doubly linked list make it faster to {} a node from the {}?",
+        "examples": ["delete or insert", "middle or end"]
+      },
+      {
+        "id": 9,
+        "question": "For what kinds of application would you use a {}?",
+        "examples": ["double linked list"]
+      },
+      {
+        "id": 10,
+        "question": "What is a difference between {} and {} graphs?",
+        "examples": ["directed", "undirected graphs"]
+      },
+      {
+        "id": 11,
+        "question": "Define {} in a graph.",
+        "examples": ["vertices", "cycle"]
+      },
+      {
+        "id": 12,
+        "question": "What is the {} complexity of {} sort?",
+        "examples": ["time/space of quick or radix sort"]
+      },
+      {
+        "id": 13,
+        "question": "What is the difference between {} and {} traversal in graphs?",
+        "examples": ["DF", "BF"]
+      },
+      {
+        "id": 14,
+        "question": "When do you use the {} algorithm?",
+        "examples": ["shortest path", "MST"]
+      },
+      {
+        "id": 15,
+        "question": "How many arrows are in a complete {} graph?",
+        "examples": ["directed", "undirected"]
+      }
+    ]
+  }
+  
