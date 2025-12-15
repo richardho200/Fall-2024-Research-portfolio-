@@ -63,7 +63,10 @@ This application is designed for entering and managing student data for CSUSM co
 ### 1)Setup
 Use an environment variable (recommended)
 1. Set your API key (Windows – Anaconda / CMD)
+
+```
 setx OPENAI_API_KEY "your-real-api-key-here"
+```
 
 2)create .env file and create the API key before you use
 
