@@ -1,4 +1,4 @@
-# Fall-2024-Research-portfolio
+# Fall-2026-Research-portfolio
 Computional Media PhD UCSC and Future PhD Admission Committee may refer to this repos 
 
 Refer to the Fall 2026 SOP for furher explaination on the generative AI tutor project
