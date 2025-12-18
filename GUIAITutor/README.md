@@ -1,4 +1,4 @@
-# CSUSM Data Entry Application
+# CSUSM GUI AI tutor: Evaluation of the Generative AI feedback on students' answer(Future Research Project Proposal for Further Review
 
 This application is designed for entering and managing student data for CSUSM courses. It includes a user-friendly GUI built with `CustomTkinter` and supports multiple functionalities such as student data entry, course selection, and navigation between questionnaire pages.
 
