@@ -9,7 +9,7 @@ This project showcases the functionality of generative AI gives detailed feedbac
 
 Youtube Demo for the remote server demonstration: https://youtu.be/8hbi-ZGbwfE
 
-Youtube Demo for the GUIAI tutor for this repos: https://youtu.be/-W5RuCZ3sZY
+YT Demo is the formal explaination of the program in this repos: https://youtu.be/SiTCJabX8oA
 
 
 2nd Project is the Initial study of generative AI tutorbot on analysis of respective version of GPT: https://github.com/richardho200/AI-Tutor-Bot
