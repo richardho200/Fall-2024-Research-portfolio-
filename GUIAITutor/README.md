@@ -2,6 +2,11 @@
 
 This application is designed for entering and managing student data for CSUSM courses. It includes a user-friendly GUI built with `CustomTkinter` and supports multiple functionalities such as student data entry, course selection, and navigation between questionnaire pages.
 
+##Youtube Demo
+In this YT video, it shows the functionality of the GUI Python Program showcasing the functionality of the generative AI tutor generated feedback on the student's answer along with random questioning and randoming question version.
+
+YT video: https://youtu.be/SiTCJabX8oA
+
 ## Screenshots
 
 ### Main Page
